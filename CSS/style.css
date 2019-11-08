@@ -1,12 +1,81 @@
-* {
-    margin: 0px;
+/* GENERAL STYLES*/
+
+*{
+    margin:0px;
     padding: 0px;
+    font-family: LaCasaDePapel;
+}
+
+@font-face {
+  font-family: LaCasaDePapel;
+  src: url(../Assets/Coluna.otf);
 }
 
 body {
     width: 100%;
     height: 100%;
 }
+
+/*HEADER STYLES*/
+
+.icon a img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+}
+
+.icon{
+    float: left;
+}
+
+header{
+    height: 60px;
+    background-color: #333;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+}
+
+.bar{
+    border-left: 5px;
+    list-style-type: none;
+}
+
+.links{
+    float: left;
+    height: 100%;
+    font-size: 30px;
+}
+
+.bar li:hover{
+    background-color: black;
+}
+
+.links a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 13px 20px 20px 20px;
+    text-decoration: none;
+}
+
+.titol{
+    float: right;
+    display: block;
+    text-align: center;
+}
+
+.titol a img{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 50px;
+    width: 100px;
+}
+
+ul{
+    height: 100%;
+}
+
+/* FOOTER STYLES*/
 
 footer{
     background-color: black;
