@@ -1,7 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
 footer{
     background-color: black;
-    width: 500px;
-    height: 500px;
-    color: white;
+    height: 50px;
     font-family: 'Courier New', Courier, monospace;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+footer ul li{
+    display: inline-block;
+    margin-left: 20%;
+    padding-top: 1%;
+}
+
+.xarxes{
+    margin: auto;
+}
+
+.ico{
+    width: 38px;
+    height: 38px;
 }
