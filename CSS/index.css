@@ -1,0 +1,29 @@
+.container{	
+	width: 100%;
+	height: 100%;
+}
+
+.container > div{
+	
+}
+
+.image{
+	width: 100%;
+	height: 56.25%;
+	top: 62px;
+	position: relative;
+}
+
+.image2{
+	width: 100%;
+	height: 56.25%;
+	top: 62px;
+	position: relative;
+}
+
+.cimage1{
+
+}
+
+.cimage2{
+}
