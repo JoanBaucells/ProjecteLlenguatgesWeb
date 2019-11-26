@@ -80,8 +80,9 @@ ul{
 
 footer{
     background-color: black;
-    height: 50px;
+    height: 10%;
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
 footer ul li a{
