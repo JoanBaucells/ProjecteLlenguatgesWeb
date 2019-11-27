@@ -4,14 +4,14 @@
     padding-right: 10%;
     padding-top: 2%;
 }
-img{
-    width: 32%;
+.content img{
+    width: 30%;
     height: 56.25%;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
 }
 
-img :hover{
-    transform: translateX(-25%) translateY(-25%);
+.content img:hover{
+    transform: scale(1.4,1.4);
 }
