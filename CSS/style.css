@@ -4,11 +4,13 @@
     margin:0px;
     padding: 0px;
     font-family: LaCasaDePapel;
+    letter-spacing: 2px;
+
 }
 
 @font-face {
   font-family: LaCasaDePapel;
-  src: url(../Assets/Coluna.otf);
+  src: url(../Assets/Coluna.otf);  
 }
 
 body {
