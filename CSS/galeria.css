@@ -1,0 +1,36 @@
+
+.content{
+    background: linear-gradient(to bottom, #333, black, #333)
+}
+.env{
+    padding-bottom: 5%;
+}
+.title{
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+.cabecera{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    border-bottom: solid 1px;
+}
+.cabecera p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 7px;
+}
+.text{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+img{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    height: 215px;
+    width: 306px;
+}

@@ -1,17 +1,40 @@
-.container{	
-	width: 100%;
-	height: 100%;
+.container{
+	background: linear-gradient(to bottom, #333, black, #333);
+	padding-top: 1%;
+}
+.env{
+    padding-bottom: 5%;
+}
+.title{
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+.Personatge{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+	border-bottom: solid 1px;
+	padding-top: 1%;
+}
+.Personatge p{
+    margin-bottom: 7px;
 }
 
 .Personatge img{
-	width: 20%;
+	width: 34%;
 	height: 56.25%;
 }
 
 .text{
-	height: 0px;
-	background-color: transparent;
 	color: #E50914;
-	position: relative;
-	display: flex;
+	padding-left: 2%;
+    padding-right: 2%;
+}
+.text p{
+	color:white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
