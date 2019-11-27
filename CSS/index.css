@@ -15,6 +15,7 @@
 .image2{
 	width: 100%;
 	height: 56.25%;
+
 }
 .text{
 	height: 0px;
@@ -46,13 +47,11 @@
     box-shadow: inset 0 0 2px hsla(0,0%,0%,.2),
                 0 3px 1px hsla(0,0%,100%,.75),
                 0 -1px 1px 2px hsla(0,0%,0%,.1);
-    height: 18.75em;
-    left: 50%;
-    margin: -9.875em -13em;
-    padding: .5em;
-    position: absolute;
-    top: 50%;
-    width: 25em;
+
+
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 /* Frame */
@@ -68,7 +67,7 @@
                 0 40px 20px -15px hsla(0,0%,0%,.1);
     content: '';
     left: -2.5em;
-    position: absolute;
+    position: relative;
     right: -2.5em;
     top: -2.5em;
     z-index: -1;
@@ -157,10 +156,9 @@
 /* Images */
 
 .slider img {
-    height: 18.75em;
-    opacity: 0;
+    width: 100%;
     transition: .25s;
-    width: 25em;
+    opacity: 0;
     vertical-align: top;
     visibility: hidden;
 }
